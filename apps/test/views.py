@@ -1,8 +1,6 @@
 import logging
-from apps.tags.models import Tag
 import settings
 from webengine import route
-from apps.visor.models import Bucket, Photo, Template, PhotoConfiguration
 from webapp2_extras import routes
 from google.appengine.ext import ndb
 from webengine.models import User
@@ -16,7 +14,6 @@ def index(handler):
 def index(handler, some_id):
     logging.info(some_id)
     handler.render('index.html')
-
 
 
 #Setup a custom handler

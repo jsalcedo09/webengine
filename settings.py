@@ -45,10 +45,6 @@ TOKEN_CONFIG = {
 SESSION_ATTRIBUTES = ['user_id', 'remember',
                       'token', 'token_ts', 'cache_ts', 'roles']
 
-
-
 APPS = [
-    'visor',
-    'tags',
-    'find_hotspot_game'
+    'test'
 ]

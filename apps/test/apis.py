@@ -1,4 +1,5 @@
 import endpoints
+from apps.test.models import Test
 from settings import ENDPOINTS_AUTH_CONFIG
 from webengine.sevices import AuthRemoteService
 from protorpc import remote
